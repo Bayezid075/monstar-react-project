@@ -39,6 +39,7 @@ export default class App extends Component {
     console.log("render function !!");
     return (
       <div className="App">
+        <h1 className="app-title"> monster Rolodex </h1>
         <SearchBox
           onChangeHandler={this.onSearchChange}
           placeholder={"Search Monstar"}
